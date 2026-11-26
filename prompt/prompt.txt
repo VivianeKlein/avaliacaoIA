@@ -1,0 +1,23 @@
+Registro de prompts utilizados
+==============================
+
+1. Implementação do protótipo
+Finalidade: definir as funcionalidades centrais do cardápio digital.
+Prompt (consolidado a partir da situação-problema e dos requisitos enviados):
+"Desenvolva um protótipo funcional e responsivo de cardápio digital para uma lanchonete. Inclua pelo menos seis produtos em categorias filtráveis, carrinho com controle de quantidades, cálculo de subtotais e total, confirmação simulada com resumo dos itens e validação para impedir pedidos vazios. Não implemente pagamentos reais."
+
+2. Separação dos arquivos do frontend
+Finalidade: organizar a página, os estilos e a lógica em arquivos separados.
+Prompt enviado:
+"Pode separar o CSS e JavaScript em outros arquivos, para ficar mais organizado."
+
+3. Organização das pastas do projeto
+Finalidade: estruturar o protótipo em pastas para documentação, prompts, frontend e backend.
+Prompt enviado:
+"Pasta documentos, prompt, frontend, backend, o protótipo deve conter esses arquivos."
+Decisão aplicada após confirmação: manter o protótipo sem servidor e documentar o escopo em backend/README.md.
+
+4. Documentação do projeto
+Finalidade: documentar a solução, como executá-la e as ferramentas utilizadas.
+Prompt enviado:
+"Arquivo README.md contendo uma descrição da solução, instruções de execução e ferramentas utilizadas."

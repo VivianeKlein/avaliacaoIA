@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f5ef">
+  <meta name="description" content="Escolha seus favoritos no cardápio digital do PJP.">
+  <title>Cardápio digital | PJP</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="Quintal, início">
+      <span class="brand-mark" aria-hidden="true">q</span>
+      <span>quintal</span>
+    </a>
+    <span class="open-label"><span class="open-dot" aria-hidden="true"></span>Aberto agora · peça por aqui</span>
+  </header>
+
+  <main>
+    <section class="intro" aria-labelledby="page-title">
+      <div class="intro-copy">
+        <p class="eyebrow">Comida boa, sem complicação</p>
+        <h1 id="page-title">Seu próximo favorito está aqui.</h1>
+        <p class="intro-description">Feito na hora, com ingredientes de verdade. Escolha, monte seu pedido e aproveite.</p>
+      </div>
+      <div class="intro-illustration" aria-hidden="true">🍔</div>
+    </section>
+
+    <div class="content-layout">
+      <section class="menu-section" aria-labelledby="menu-title">
+        <div class="section-heading">
+          <div>
+            <h2 id="menu-title">Nosso cardápio</h2>
+            <p>Um capricho de cada vez.</p>
+          </div>
+        </div>
+        <nav class="filters" aria-label="Filtrar produtos por categoria" id="category-filters"></nav>
+        <div class="product-grid" id="product-grid" aria-live="polite"></div>
+      </section>
+
+      <aside class="cart-panel" aria-labelledby="cart-title">
+        <div class="cart-header">
+          <h2 id="cart-title">Seu pedido</h2>
+          <span class="cart-count" id="cart-count" aria-label="0 itens">0</span>
+        </div>
+        <div class="cart-items" id="cart-items" aria-live="polite"></div>
+        <div class="cart-footer">
+          <div class="total-row">
+            <span>Total do pedido</span>
+            <span class="total-value" id="cart-total">R$ 0,00</span>
+          </div>
+          <p class="cart-note">Valores em reais · sem taxas adicionais</p>
+          <button class="checkout-button" id="checkout-button" type="button">Confirmar pedido</button>
+          <p class="cart-message" id="cart-message" role="status" aria-live="polite"></p>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <dialog id="confirmation-dialog" aria-labelledby="confirmation-title">
+    <div class="confirmation">
+      <div class="confirmation-icon" aria-hidden="true">✓</div>
+      <h2 id="confirmation-title">Pedido confirmado!</h2>
+      <p class="confirmation-intro">Tudo certo por aqui. Este é o resumo do seu pedido:</p>
+      <div class="confirmation-list" id="confirmation-list"></div>
+      <div class="confirmation-total">
+        <span>Total</span>
+        <span id="confirmation-total">R$ 0,00</span>
+      </div>
+      <button class="checkout-button" id="close-confirmation" type="button">Continuar olhando</button>
+    </div>
+  </dialog>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
