@@ -20,7 +20,12 @@
 body {
   margin: 0;
   min-width: 320px;
-  background: var(--paper);
+  background-color: var(--paper);
+  background-image:
+    radial-gradient(circle at 12px 12px, rgb(116 87 165 / 9%) 2px, transparent 2.5px),
+    radial-gradient(circle at 36px 36px, rgb(116 87 165 / 6%) 1.5px, transparent 2px);
+  background-position: 0 0, 0 0;
+  background-size: 48px 48px, 48px 48px;
   color: var(--ink);
 }
 
