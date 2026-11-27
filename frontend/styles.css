@@ -1,10 +1,10 @@
 :root {
   color-scheme: light;
-  --ink: #202a22;
-  --muted: #747b72;
-  --green: #245c3b;
-  --green-dark: #19462d;
-  --lime: #d7ed9f;
+  --ink: #292531;
+  --muted: #767180;
+  --purple: #7457a5;
+  --purple-dark: #56377f;
+  --lavender: #e5d8ff;
   --paper: #f7f5ef;
   --white: #fffefa;
   --line: #e8e5dc;
@@ -52,7 +52,7 @@ button { font: inherit; }
   height: 36px;
   place-items: center;
   border-radius: 12px;
-  background: var(--green);
+  background: var(--purple);
   color: white;
   font-size: 1.15rem;
 }
@@ -70,8 +70,8 @@ button { font: inherit; }
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: #54a66a;
-  box-shadow: 0 0 0 4px rgb(84 166 106 / 12%);
+  background: #9474c4;
+  box-shadow: 0 0 0 4px rgb(148 116 196 / 12%);
 }
 
 main {
@@ -90,7 +90,7 @@ main {
   gap: 24px;
   padding: 40px 52px;
   border-radius: 24px;
-  background: var(--green);
+  background: var(--purple);
   color: white;
 }
 
@@ -111,7 +111,7 @@ main {
 
 .eyebrow {
   margin: 0 0 12px;
-  color: var(--lime);
+  color: var(--lavender);
   font-size: .75rem;
   font-weight: 800;
   letter-spacing: .14em;
@@ -197,11 +197,11 @@ h1 {
   transition: background .16s ease, color .16s ease, border-color .16s ease;
 }
 
-.filter-button:hover { border-color: var(--green); }
+.filter-button:hover { border-color: var(--purple); }
 
 .filter-button[aria-pressed="true"] {
-  border-color: var(--green);
-  background: var(--green);
+  border-color: var(--purple);
+  background: var(--purple);
   color: white;
 }
 
@@ -248,8 +248,8 @@ h1 {
 .product-category {
   padding: 6px 9px;
   border-radius: 999px;
-  background: #f0f3e8;
-  color: var(--green);
+  background: #f1edf8;
+  color: var(--purple);
   font-size: .68rem;
   font-weight: 800;
   white-space: nowrap;
@@ -290,8 +290,8 @@ h1 {
   padding: 8px 13px;
   border: 0;
   border-radius: 11px;
-  background: #edf2e8;
-  color: var(--green);
+  background: #f1edf8;
+  color: var(--purple);
   cursor: pointer;
   font-size: .8rem;
   font-weight: 800;
@@ -299,7 +299,7 @@ h1 {
 }
 
 .add-button:hover {
-  background: var(--green);
+  background: var(--purple);
   color: white;
 }
 
@@ -334,8 +334,8 @@ h1 {
   padding: 0 7px;
   place-items: center;
   border-radius: 999px;
-  background: #edf2e8;
-  color: var(--green);
+  background: #f1edf8;
+  color: var(--purple);
   font-size: .76rem;
   font-weight: 850;
 }
@@ -400,7 +400,7 @@ h1 {
   font-weight: 750;
 }
 
-.quantity-button:hover { border-color: var(--green); color: var(--green); }
+.quantity-button:hover { border-color: var(--purple); color: var(--purple); }
 
 .quantity-number {
   min-width: 15px;
@@ -448,7 +448,7 @@ h1 {
   min-height: 48px;
   border: 0;
   border-radius: 12px;
-  background: var(--green);
+  background: var(--purple);
   color: white;
   cursor: pointer;
   font-size: .9rem;
@@ -456,7 +456,7 @@ h1 {
   transition: background .16s ease, transform .16s ease;
 }
 
-.checkout-button:hover { background: var(--green-dark); }
+.checkout-button:hover { background: var(--purple-dark); }
 .checkout-button:active { transform: scale(.99); }
 
 .cart-message {
@@ -495,7 +495,7 @@ dialog::backdrop { background: rgb(22 32 25 / 55%); }
   margin: 0 auto 15px;
   place-items: center;
   border-radius: 50%;
-  background: #edf5e6;
+  background: #f1edf8;
   font-size: 2rem;
 }
 
