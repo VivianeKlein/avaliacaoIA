@@ -1,4 +1,4 @@
-# Cardápio digital — PJP
+# Cardápio digital — Go Bite
 
 ## Descrição
 

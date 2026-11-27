@@ -1,5 +1,5 @@
 const products = [
-  { id: "quintal-burger", name: "Burger do Quintal", price: 32.90, description: "Blend artesanal, queijo prato, alface, tomate e molho da casa.", category: "Lanches", icon: "🍔" },
+  { id: "go-bite-burger", name: "Burger do Go Bite", price: 32.90, description: "Blend artesanal, queijo prato, alface, tomate e molho da casa.", category: "Lanches", icon: "🍔" },
   { id: "smash-duplo", name: "Smash Duplo", price: 35.90, description: "Dois discos smash, cheddar cremoso e cebola caramelizada.", category: "Lanches", icon: "🍔" },
   { id: "burger-veg", name: "Burger Veggie", price: 29.90, description: "Hambúrguer de grão-de-bico, rúcula e maionese de ervas.", category: "Lanches", icon: "🥬" },
   { id: "batata-rustica", name: "Batata Rústica", price: 16.00, description: "Batatas douradas com alecrim e um toque de páprica.", category: "Acompanhamentos", icon: "🍟" },

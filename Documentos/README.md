@@ -1,4 +1,4 @@
-# Documentação do protótipo
+# Documentação do protótipo Go Bite
 
 ## Objetivo
 
